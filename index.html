@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Birmingham Airport Meet & Greet Parking | Holiday Extras</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <img src="https://d17s4kc6349e5h.cloudfront.net/holidayextras/assets/images/logos/HolidayExtras-logo-horizontal-transparent.svg"
+           alt="Holiday Extras"
+           class="logo">
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <img src="assets/hero.jpg" alt="Birmingham Airport Meet & Greet Parking" class="hero-image">
+    <div class="hero-overlay">
+      <div class="container">
+        <div class="hero-badge">Exclusive Offer</div>
+        <h1 class="hero-title">Upgrade to Premium Meet & Greet</h1>
+        <p class="hero-subtitle">Save £25 on Airparks meet & greet parking at Birmingham Airport</p>
+        <div class="hero-discount">Use code: <strong>MEETGREET25</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Upgrade Section -->
+  <section class="why-upgrade">
+    <div class="container">
+      <h2 class="section-title">Why upgrade from official Birmingham parking?</h2>
+      <p class="section-subtitle">Get the VIP treatment without the VIP price</p>
+
+      <div class="comparison-grid">
+        <!-- Official Parking -->
+        <div class="comparison-card official">
+          <div class="card-header">
+            <h3>Official Birmingham Parking</h3>
+            <span class="card-badge basic">What you're used to</span>
+          </div>
+          <ul class="feature-list">
+            <li class="negative">❌ Park in multi-storey car parks</li>
+            <li class="negative">❌ Carry luggage to terminal</li>
+            <li class="negative">❌ Walk or take shuttle bus</li>
+            <li class="negative">❌ Find your car on return</li>
+            <li class="negative">❌ Often fully booked</li>
+            <li class="negative">❌ Higher prices</li>
+          </ul>
+        </div>
+
+        <!-- Meet & Greet -->
+        <div class="comparison-card premium">
+          <div class="card-header">
+            <h3>Airparks Meet & Greet</h3>
+            <span class="card-badge premium-badge">Premium service</span>
+          </div>
+          <ul class="feature-list">
+            <li class="positive">✅ Drive straight to terminal</li>
+            <li class="positive">✅ Chauffeur meets you kerbside</li>
+            <li class="positive">✅ Walk 2 minutes to check-in</li>
+            <li class="positive">✅ Car returned to you on arrival</li>
+            <li class="positive">✅ Guaranteed availability</li>
+            <li class="positive">✅ Better value with our £25 discount</li>
+          </ul>
+          <div class="card-savings">
+            <div class="savings-badge">Save £25 today</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits">
+    <div class="container">
+      <h2 class="section-title">The meet & greet difference</h2>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">🚗</div>
+          <h3>Terminal drop-off</h3>
+          <p>Drive right to the terminal entrance. No shuttle buses, no long walks with luggage.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">👔</div>
+          <h3>Professional chauffeur</h3>
+          <p>A uniformed driver meets you, takes your keys, and parks your car securely off-site.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">⏱️</div>
+          <h3>Save time</h3>
+          <p>Check in within 2 minutes of parking. Perfect for families and business travellers.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🔒</div>
+          <h3>Secure parking</h3>
+          <p>Your car is stored in a Park Mark approved, CCTV-monitored car park.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">✈️</div>
+          <h3>Car waiting on return</h3>
+          <p>Your car is brought back to the terminal before you land. Just walk out and drive home.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">💰</div>
+          <h3>Price match promise</h3>
+          <p>Find it cheaper elsewhere and we'll refund the difference plus an extra £10.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <section class="search-section">
+    <div class="container">
+      <div class="search-header">
+        <h2 class="search-title">Book your meet & greet parking</h2>
+        <p class="search-subtitle">Use code <strong>MEETGREET25</strong> for £25 off</p>
+      </div>
+
+      <form class="search-form" id="searchForm">
+        <input type="hidden" id="airport" value="BHX">
+        <input type="hidden" id="promotionCode" value="MEETGREET25">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="outDate">Drop-off date</label>
+            <input type="date" id="outDate" name="outDate" required>
+          </div>
+
+          <div class="form-group">
+            <label for="outTime">Drop-off time</label>
+            <input type="time" id="outTime" name="outTime" value="06:00" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="inDate">Return date</label>
+            <input type="date" id="inDate" name="inDate" required>
+          </div>
+
+          <div class="form-group">
+            <label for="inTime">Return time</label>
+            <input type="time" id="inTime" name="inTime" value="12:00" required>
+          </div>
+        </div>
+
+        <button type="submit" class="search-button">Search meet & greet parking</button>
+        <p class="promo-reminder">Discount code MEETGREET25 applied automatically</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Trust Section -->
+  <section class="trust-section">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-number">40+</div>
+          <div class="trust-label">Years of expertise</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-number">4.7★</div>
+          <div class="trust-label">Trustpilot rating</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-number">8M+</div>
+          <div class="trust-label">Happy customers</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-number">100%</div>
+          <div class="trust-label">Price match guarantee</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Holiday Extras. All rights reserved.</p>
+      <p><a href="https://www.holidayextras.com/privacy-policy">Privacy Policy</a> | <a href="https://www.holidayextras.com/terms-and-conditions">Terms & Conditions</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
